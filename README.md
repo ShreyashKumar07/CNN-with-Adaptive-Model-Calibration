@@ -1,1 +1,3 @@
-# CNN-with-Adaptive-Model-Calibration
+##Face Recognition CNN Model with Adaptive Model Calibration
+
+This project involves building a Convolutional Neural Network (CNN) for face recognition with an adaptive model calibration technique. The model is designed to continuously learn by capturing and recognizing new faces through a feedback loop mechanism, expanding the dataset with each new face it encounters. This adaptive approach ensures that the model remains robust and prevents overfitting by continually updating and normalizing the training data. To further combat overfitting, dropout regularization was applied during model training. This ensures that the model generalizes well to unseen data. The application-oriented model is highly efficient for real-time face recognition, as it dynamically adjusts and improves with new inputs.
